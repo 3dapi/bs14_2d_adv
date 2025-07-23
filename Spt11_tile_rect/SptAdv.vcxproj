@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{31ECC44E-750C-45F4-9518-53D6DC885E63}</ProjectGuid>
+    <ProjectGuid>{5153E18D-9D3A-42CE-B591-47E9F825280F}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -63,7 +63,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
-      <PrecompiledHeaderOutputFile>.\Debug\SpTool.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Debug\SptAdv.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -71,7 +71,7 @@
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Debug\SpTool.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Debug\SptAdv.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <TargetEnvironment>Win32</TargetEnvironment>
     </Midl>
@@ -81,13 +81,13 @@
     </ResourceCompile>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Debug\SpTool.bsc</OutputFile>
+      <OutputFile>.\Debug\SptAdv.bsc</OutputFile>
     </Bscmake>
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Debug\SpTool.exe</OutputFile>
+      <OutputFile>.\Debug\SptAdv.exe</OutputFile>
       <AdditionalLibraryDirectories>$(DXSDK_DIR)Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>dsound.lib;dinput8.lib;DxErr.lib;d3dx9.lib;d3d9.lib;d3dxof.lib;dxguid.lib;winmm.lib;comctl32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -105,14 +105,14 @@
       <AdditionalIncludeDirectories>$(DXSDK_DIR)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
-      <PrecompiledHeaderOutputFile>.\Release\SpTool.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile>.\Release\SptAdv.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
     </ClCompile>
     <Midl>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <TypeLibraryName>.\Release\SpTool.tlb</TypeLibraryName>
+      <TypeLibraryName>.\Release\SptAdv.tlb</TypeLibraryName>
       <MkTypLibCompatible>true</MkTypLibCompatible>
       <TargetEnvironment>Win32</TargetEnvironment>
     </Midl>
@@ -122,12 +122,12 @@
     </ResourceCompile>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Release\SpTool.bsc</OutputFile>
+      <OutputFile>.\Release\SptAdv.bsc</OutputFile>
     </Bscmake>
     <Link>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\Release\SpTool.exe</OutputFile>
+      <OutputFile>.\Release\SptAdv.exe</OutputFile>
       <AdditionalLibraryDirectories>$(DXSDK_DIR)Lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>dsound.lib;dinput8.lib;DxErr.lib;d3dx9.lib;d3d9.lib;d3dxof.lib;dxguid.lib;winmm.lib;comctl32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -136,18 +136,14 @@
     <ClCompile Include="D3DApp.cpp" />
     <ClCompile Include="LcTile.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="SpTool.cpp" />
-    <ClCompile Include="WndWrk.cpp" />
-    <ClCompile Include="WndWrk1.cpp" />
-    <ClCompile Include="WndWrkImg.cpp" />
+    <ClCompile Include="SptAdv.cpp" />
     <ClCompile Include="_LcUtil\LcInput.cpp" />
     <ClCompile Include="_LcUtil\LcSprite.cpp" />
-    <ClCompile Include="_LcUtil\LcSwpWn.cpp" />
     <ClCompile Include="_LcUtil\LcTexture.cpp" />
     <ClCompile Include="_LcUtil\LcUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SpTool.rc" />
+    <ResourceCompile Include="SptAdv.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3DApp.h" />
@@ -156,14 +152,13 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="_LcUtil\LcInput.h" />
     <ClInclude Include="_LcUtil\LcSprite.h" />
-    <ClInclude Include="_LcUtil\LcSwpWn.h" />
     <ClInclude Include="_LcUtil\LcTexture.h" />
     <ClInclude Include="_LcUtil\LcUtil.h" />
     <ClInclude Include="_StdAfx.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="DirectX.ico" />
-    <Image Include="work.bmp" />
+    <Image Include="_res\DirectX.ico" />
+    <Image Include="_res\work.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,19 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{a8e20450-f00f-4adb-88d3-b7f5ba4ded2e}</UniqueIdentifier>
+      <UniqueIdentifier>{89e91583-6cd0-4c57-8c34-0acaed913f6f}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{adb6cb45-bf8f-41b3-828e-9e6a0f70b2e1}</UniqueIdentifier>
+      <UniqueIdentifier>{2f0be640-3cfa-423a-b189-82954fc20b81}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{12508589-a8d5-4c97-86c3-9cd56b620cc7}</UniqueIdentifier>
+      <UniqueIdentifier>{2be76a83-1fac-4363-9e4b-ac43cc027a36}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="LcUtil">
-      <UniqueIdentifier>{43d568c3-0d8f-4199-8e8a-b4a953f8200b}</UniqueIdentifier>
+      <UniqueIdentifier>{3bb58738-8635-4d2a-a03d-cadde9bb9fd5}</UniqueIdentifier>
       <Extensions>cpp;h;</Extensions>
     </Filter>
   </ItemGroup>
@@ -28,25 +28,13 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SpTool.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WndWrk.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WndWrk1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WndWrkImg.cpp">
+    <ClCompile Include="SptAdv.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="_LcUtil\LcInput.cpp">
       <Filter>LcUtil</Filter>
     </ClCompile>
     <ClCompile Include="_LcUtil\LcSprite.cpp">
-      <Filter>LcUtil</Filter>
-    </ClCompile>
-    <ClCompile Include="_LcUtil\LcSwpWn.cpp">
       <Filter>LcUtil</Filter>
     </ClCompile>
     <ClCompile Include="_LcUtil\LcTexture.cpp">
@@ -57,7 +45,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SpTool.rc">
+    <ResourceCompile Include="SptAdv.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -83,9 +71,6 @@
     <ClInclude Include="_LcUtil\LcSprite.h">
       <Filter>LcUtil</Filter>
     </ClInclude>
-    <ClInclude Include="_LcUtil\LcSwpWn.h">
-      <Filter>LcUtil</Filter>
-    </ClInclude>
     <ClInclude Include="_LcUtil\LcTexture.h">
       <Filter>LcUtil</Filter>
     </ClInclude>
@@ -94,10 +79,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="DirectX.ico">
+    <Image Include="_res\DirectX.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="work.bmp">
+    <Image Include="_res\work.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

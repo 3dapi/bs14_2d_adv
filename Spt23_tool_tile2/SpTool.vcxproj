@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{31ECC44E-750C-45F4-9518-53D6DC885E63}</ProjectGuid>
+    <ProjectGuid>{D2D3D209-46EE-41A9-9910-994C82F0DD74}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -162,8 +162,8 @@
     <ClInclude Include="_StdAfx.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="DirectX.ico" />
-    <Image Include="work.bmp" />
+    <Image Include="_res\DirectX.ico" />
+    <Image Include="_res\work.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

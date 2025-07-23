@@ -2,19 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{a8e20450-f00f-4adb-88d3-b7f5ba4ded2e}</UniqueIdentifier>
+      <UniqueIdentifier>{23887fa2-06ea-4e00-8229-c139f5e104b7}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{adb6cb45-bf8f-41b3-828e-9e6a0f70b2e1}</UniqueIdentifier>
+      <UniqueIdentifier>{ce57f36c-091f-41d4-a56e-2c9870fc06bf}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{12508589-a8d5-4c97-86c3-9cd56b620cc7}</UniqueIdentifier>
+      <UniqueIdentifier>{2de2d58d-4b26-4429-a751-699cf352ab50}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="LcUtil">
-      <UniqueIdentifier>{43d568c3-0d8f-4199-8e8a-b4a953f8200b}</UniqueIdentifier>
+      <UniqueIdentifier>{a85fd800-577b-4628-8933-0952016fb519}</UniqueIdentifier>
       <Extensions>cpp;h;</Extensions>
     </Filter>
   </ItemGroup>
@@ -44,9 +44,6 @@
       <Filter>LcUtil</Filter>
     </ClCompile>
     <ClCompile Include="_LcUtil\LcSprite.cpp">
-      <Filter>LcUtil</Filter>
-    </ClCompile>
-    <ClCompile Include="_LcUtil\LcSwpWn.cpp">
       <Filter>LcUtil</Filter>
     </ClCompile>
     <ClCompile Include="_LcUtil\LcTexture.cpp">
@@ -83,9 +80,6 @@
     <ClInclude Include="_LcUtil\LcSprite.h">
       <Filter>LcUtil</Filter>
     </ClInclude>
-    <ClInclude Include="_LcUtil\LcSwpWn.h">
-      <Filter>LcUtil</Filter>
-    </ClInclude>
     <ClInclude Include="_LcUtil\LcTexture.h">
       <Filter>LcUtil</Filter>
     </ClInclude>
@@ -94,10 +88,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="DirectX.ico">
+    <Image Include="_res\DirectX.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="work.bmp">
+    <Image Include="_res\work.bmp">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

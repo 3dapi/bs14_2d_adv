@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.36227.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpTool", "SpTool.vcxproj", "{31ECC44E-750C-45F4-9518-53D6DC885E63}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpTool", "SpTool.vcxproj", "{C15FFDB9-E1C7-4079-A948-4125D7792EF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{31ECC44E-750C-45F4-9518-53D6DC885E63}.Debug|x86.ActiveCfg = Debug|Win32
-		{31ECC44E-750C-45F4-9518-53D6DC885E63}.Debug|x86.Build.0 = Debug|Win32
-		{31ECC44E-750C-45F4-9518-53D6DC885E63}.Release|x86.ActiveCfg = Release|Win32
-		{31ECC44E-750C-45F4-9518-53D6DC885E63}.Release|x86.Build.0 = Release|Win32
+		{C15FFDB9-E1C7-4079-A948-4125D7792EF4}.Debug|x86.ActiveCfg = Debug|Win32
+		{C15FFDB9-E1C7-4079-A948-4125D7792EF4}.Debug|x86.Build.0 = Debug|Win32
+		{C15FFDB9-E1C7-4079-A948-4125D7792EF4}.Release|x86.ActiveCfg = Release|Win32
+		{C15FFDB9-E1C7-4079-A948-4125D7792EF4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {ABCB6B4D-D5DA-414B-A535-BDF36D83525E}
+		SolutionGuid = {B9B84CA8-07AF-4EAF-8B37-AA47CB421A55}
 	EndGlobalSection
 EndGlobal

@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{31ECC44E-750C-45F4-9518-53D6DC885E63}</ProjectGuid>
+    <ProjectGuid>{C15FFDB9-E1C7-4079-A948-4125D7792EF4}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -142,7 +142,6 @@
     <ClCompile Include="WndWrkImg.cpp" />
     <ClCompile Include="_LcUtil\LcInput.cpp" />
     <ClCompile Include="_LcUtil\LcSprite.cpp" />
-    <ClCompile Include="_LcUtil\LcSwpWn.cpp" />
     <ClCompile Include="_LcUtil\LcTexture.cpp" />
     <ClCompile Include="_LcUtil\LcUtil.cpp" />
   </ItemGroup>
@@ -156,14 +155,13 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="_LcUtil\LcInput.h" />
     <ClInclude Include="_LcUtil\LcSprite.h" />
-    <ClInclude Include="_LcUtil\LcSwpWn.h" />
     <ClInclude Include="_LcUtil\LcTexture.h" />
     <ClInclude Include="_LcUtil\LcUtil.h" />
     <ClInclude Include="_StdAfx.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="DirectX.ico" />
-    <Image Include="work.bmp" />
+    <Image Include="_res\DirectX.ico" />
+    <Image Include="_res\work.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

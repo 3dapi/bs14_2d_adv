@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <SccProjectName />
     <SccLocalPath />
-    <ProjectGuid>{31ECC44E-750C-45F4-9518-53D6DC885E63}</ProjectGuid>
+    <ProjectGuid>{07AA8D6E-1254-48B6-9DD5-E3B5DE317377}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -134,12 +134,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="D3DApp.cpp" />
+    <ClCompile Include="LcChar.cpp" />
     <ClCompile Include="LcTile.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SpTool.cpp" />
-    <ClCompile Include="WndWrk.cpp" />
-    <ClCompile Include="WndWrk1.cpp" />
-    <ClCompile Include="WndWrkImg.cpp" />
     <ClCompile Include="_LcUtil\LcInput.cpp" />
     <ClCompile Include="_LcUtil\LcSprite.cpp" />
     <ClCompile Include="_LcUtil\LcSwpWn.cpp" />
@@ -147,10 +145,8 @@
     <ClCompile Include="_LcUtil\LcUtil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="SpTool.rc" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="D3DApp.h" />
+    <ClInclude Include="LcChar.h" />
     <ClInclude Include="LcTile.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="resource.h" />
