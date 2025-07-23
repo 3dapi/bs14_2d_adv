@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2964bae4-fee4-4260-a136-4ab9a042a7d1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fb5e7779-50f7-413a-b58b-559f0d48b19f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8c95dab9-8637-4be2-b123-f2e658d9a0d7}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="LcUtil">
+      <UniqueIdentifier>{8da03fff-97f9-4f33-8098-df01d1d01845}</UniqueIdentifier>
+      <Extensions>cpp;h;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LcTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndWrk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndWrk1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WndWrkImg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="_LcUtil\LcInput.cpp">
+      <Filter>LcUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="_LcUtil\LcSprite.cpp">
+      <Filter>LcUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="_LcUtil\LcSwpWn.cpp">
+      <Filter>LcUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="_LcUtil\LcTexture.cpp">
+      <Filter>LcUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="_LcUtil\LcUtil.cpp">
+      <Filter>LcUtil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpTool.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LcTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_LcUtil\LcInput.h">
+      <Filter>LcUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="_LcUtil\LcSprite.h">
+      <Filter>LcUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="_LcUtil\LcSwpWn.h">
+      <Filter>LcUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="_LcUtil\LcTexture.h">
+      <Filter>LcUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="_LcUtil\LcUtil.h">
+      <Filter>LcUtil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DirectX.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="work.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

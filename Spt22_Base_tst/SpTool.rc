@@ -1,0 +1,198 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define IDC_STATIC -1
+#include <windows.h>
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_WORK, DIALOG
+    BEGIN
+    END
+
+    IDD_IMGSRC, DIALOG
+    BEGIN
+        RIGHTMARGIN, 138
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_SUBANI, DIALOG
+    BEGIN
+        RIGHTMARGIN, 188
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WORK DIALOGEX 0, 0, 138, 281
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 10, "굴림체", 400, 0, 0x81
+BEGIN
+    CONTROL         "",IDC_LST_SCENE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,13,64,95,56
+    CONTROL         "",IDC_LST_MSCENE,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,13,126,94,59
+    CONTROL         "",IDC_TAB_MERGE,"SysTabControl32",0x0,11,9,99,48
+    PUSHBUTTON      "Button1",IDC_BUTTON1,49,239,50,14
+END
+
+IDD_IMGSRC DIALOGEX 0, 0, 140, 145
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_PREV,4,0,134,143
+    CONTROL         "",IDC_TX,"Static",SS_BLACKFRAME,108,11,25,40
+    PUSHBUTTON      "Button1",IDC_BUTTON1,108,54,30,18
+END
+
+IDD_SUBANI DIALOGEX 0, 0, 214, 262
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 10, "System", 0, 0, 0x0
+BEGIN
+    CONTROL         "Tree1",IDC_PTC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,6,14,126,127
+    EDITTEXT        IDC_PTC_TREE_NAME,33,160,40,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "S↑",IDC_PTC_TREE_SAVE,113,160,15,12,BS_FLAT
+    EDITTEXT        IDC_PTC_TREE_KIND,75,160,15,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Name",IDC_STATIC,10,161,20,8
+    GROUPBOX        "Tree",IDC_STATIC,4,4,133,193
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New",                         IDM_NEW
+        MENUITEM "Open",                        IDM_OPEN
+        MENUITEM "Save",                        IDM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        IDM_EXIT
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Solid",                       ID_VIEW_SOLID
+        MENUITEM "Wire",                        ID_VIEW_WIRE
+        MENUITEM "Field",                       IDM_VIEW_FIELD
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_WORK                BITMAP                  "work.bmp"
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN_ICON           ICON                    "DirectX.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define IDC_STATIC -1\r\n"
+    "#include <windows.h>\r\n"
+    "\r\n"
+    "\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAIN_ACCEL ACCELERATORS
+BEGIN
+    VK_ESCAPE,      IDM_EXIT,               VIRTKEY, NOINVERT
+    "X",            IDM_EXIT,               VIRTKEY, ALT, NOINVERT
+END
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
